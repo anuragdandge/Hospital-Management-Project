@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>SIGMA Hospital | Admin</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <style>
+      body {
+        background-color: rgb(152, 192, 200);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>SIGMA Hospital</h1>
+    </div>
+    <div class="nav">
+      <div class="link">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="admin.html">Admin</a></li>
+        <li><a href="receptionlog.html">Reception</a></li>
+        <li><a href="doctor.html">Doctor</a></li>
+        <li><a href="aboutus.html">About us</a></li>
+      </div>
+    </div>
+    <div
+      style="
+        width: 100%;
+        padding-left: 0.75em;
+        padding-right: 0.75em;
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 1140px;
+      "
+    >
+      <form class="form" action="admindb.php" method="POST">
+        <h2>Admin Login Here</h2>
+        <hr />
+        <br />
+        <label for="fname">Username</label>
+        <input type="text" id="" name="userid" placeholder="Enter Username" />
+
+        <label for="lname">Password</label>
+        <input
+          type="password"
+          id=""
+          name="password"
+          placeholder="Enter Password"
+        />
+
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+  </body>
+</html>

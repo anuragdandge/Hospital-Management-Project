@@ -1,0 +1,153 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  background: url(img/img4.jpg);
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+.header {
+  padding: 1.5rem;
+  color: crimson;
+  height: auto;
+}
+li {
+  list-style: none;
+}
+li a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+}
+.nav {
+  padding: 0em 1em;
+  height: auto;
+  margin: 0rem 1rem;
+  background-color: rgb(75, 60, 161);
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  border-radius: 10px;
+}
+.link {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  font-size: 20px;
+}
+.heading {
+  display: block;
+  margin: 5em 4em;
+}
+.heading h1 {
+  color: crimson;
+  font-weight: 400;
+}
+p {
+  text-indent: 4rem;
+  word-spacing: 3px;
+  font-weight: 100;
+  line-height: 25px;
+  color: black;
+}
+.form {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  margin-top: 3em;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  appearance: none;
+  border-radius: 1rem;
+  box-shadow: 3px 5px 9px rgba(0, 0, 0, 0.411);
+}
+h2 {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+input[type="text"],
+input[type="password"],
+select {
+  width: 98%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  width: 100%;
+  color: #fff;
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type="submit"]:hover {
+  color: #fff;
+  background-color: #0b1fd7;
+  border-color: #0a58ca;
+}
+input[type="submit"]:hover {
+  color: #fff;
+  background-color: #5924ad;
+
+  border-color: #0a58ca;
+  transition: all .2s;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1em;
+}
+
+.fname,
+.mobno,
+.gender,
+.consult {
+  width: 50%;
+}
+
+.col {
+  display: flex;
+  margin-top: 5px;
+}
+
+.mb,
+.fn,
+#gen,
+#cons {
+  width: 95%;
+}
+
+hr {
+  box-shadow: 1px 1px 5px skyblue;
+  background-color: blueviolet;
+}
+.mt{
+  margin-top: 100px;
+}
